@@ -17,6 +17,8 @@ int main() {
     cout << count - 1 << "\n";
 
     for(int i = 0; i < count; i += 2) {
+        if(vec[i] == "0") break;
+        
         cout << vec[i] << "\n";
     }
 
